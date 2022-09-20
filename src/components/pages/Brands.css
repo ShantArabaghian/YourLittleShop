@@ -1,0 +1,101 @@
+@import "~slick-carousel/slick/slick.css";
+@import "~slick-carousel/slick/slick-theme.css";
+
+.brands {
+  width: 50%;
+  margin: 10rem auto;
+  height: 200px;
+}
+
+.brandslide img {
+  width: 15rem;
+  margin: 0 auto;
+}
+
+.brandslide {
+  transform: scale(0.2);
+  transition: transform 300ms;
+  opacity: 0.5;
+}
+
+.brandactiveSlide {
+  transform: scale(1.1);
+  opacity: 1;
+}
+
+.arrow {
+  background-color: #fff;
+  position: absolute;
+  font-size: 30px;
+  cursor: pointer;
+  z-index: 10;
+}
+
+.arrow svg {
+  transition: color 300ms;
+}
+
+.arrow svg:hover {
+  color: #68edff;
+}
+
+.next {
+  right: 0%;
+  top: 50%;
+}
+
+.prev {
+  left: 0%;
+  top: 50%;
+}
+@media screen and (max-width: 960px){
+
+
+  .brands {
+    width: 100%;
+    margin: 10rem auto;
+    height: 100px;
+  }
+  
+  .brandslide img {
+    width: 9rem;
+    margin: 0 auto;
+  }
+  
+  .brandslide {
+    transform: scale(0.2);
+    transition: transform 300ms;
+    opacity: 0.5;
+  }
+  
+  .brandactiveSlide {
+    transform: scale(1.1);
+    opacity: 1;
+  }
+  
+  .arrow {
+    background-color: #fff;
+    position: absolute;
+    font-size: 30px;
+    cursor: pointer;
+    z-index: 10;
+  }
+  
+  .arrow svg {
+    transition: color 300ms;
+  }
+  
+  .arrow svg:hover {
+    color: #68edff;
+  }
+  
+  .next {
+    right: 0%;
+    top: 50%;
+  }
+  
+  .prev {
+    left: 0%;
+    top: 50%;
+  }
+}

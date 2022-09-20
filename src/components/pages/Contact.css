@@ -1,0 +1,27 @@
+.formcontact{
+    
+    display: flex;
+    justify-content: center;
+  flex-direction: column;
+}
+.textarea{
+    flex: 1;
+  min-width: 30%;
+  margin: 10px 0;
+  padding: 10px;
+}
+.ContactContainer{
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(
+        rgba(255, 255, 255, 0.5),
+        rgba(255, 255, 255, 0.5)
+      ),
+      url("https://www.ukmodels.co.uk/wp-content/uploads/2015/08/shutterstock_266498825.jpg")
+        center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}

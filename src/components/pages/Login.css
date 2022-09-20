@@ -1,0 +1,41 @@
+.Wrapper{
+    width: 25%;
+  padding: 20px;
+  background-color: transparent;
+  
+}
+.formlog{
+  display: flex;
+  flex-direction: column;
+}
+.LContainer{
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(
+        rgba(255, 255, 255, 0.5),
+        rgba(255, 255, 255, 0.5)
+      ),
+      url("https://images.hdqwalls.com/wallpapers/fashion-model-hd.jpg")
+        center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+}
+.Link{
+    margin: 5px 0px;
+    font-size: 13px;
+    text-decoration: none;
+    cursor: pointer;
+    color: blue;
+}
+
+@media screen and (max-width: 820px) {
+.Wrapper{
+        width: 80%;
+        padding: 20px;
+        background-color: transparent;
+}
+
+}

@@ -1,0 +1,50 @@
+.price{
+    font-size: 15px;
+}
+
+table{
+    min-height: 100vh;
+    background-color: #f5f5f5;
+}
+.btn {
+    margin: 1px;
+ 
+   font-size: 15px;
+}
+.cartimg{
+    height: 20rem;
+}
+.text-center{
+    min-height: 100vh;
+}
+p{
+    text-align: center;
+}
+h5{
+    text-align: center;
+}
+.radio label{
+    margin: 15px;
+    padding: 5px;
+}
+.radio input{
+    margin: 15px;
+    padding: 5px;
+}
+@media screen and (max-width: 820px) {
+
+    .btn {
+        padding: 5px;
+            font-size: 10px;
+    }
+    .table td{
+        width: 100%;
+    }
+    .price{
+        font-size: 10px;
+    }
+    .cartimg{
+        height: 9rem;
+    }
+}
+

@@ -1,0 +1,153 @@
+.navbar{
+    margin: 0;
+    padding: 0;
+    }
+    .navbar-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 80px;
+    
+      
+    }
+    
+    .navbar-logo  {
+        text-decoration: none;
+        font-size: 30px;
+        margin: 5px;
+        color: black;
+        font-family: monospace;
+        }
+    .account-detail p{
+     
+      font-size: 15px;
+    }
+    .account-btn{
+      text-decoration: none;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: black;
+    padding: 20px;
+    font-size: 15px;
+    }
+    .account-btn:hover{
+    text-decoration: none;
+    }
+    ul{
+     
+      display: flex;
+      list-style: none;
+      justify-content: center;
+    }
+    .nav-links{
+      text-align: center;
+        text-decoration: none;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      color: black;
+      margin: 15px;
+      padding: 20px;
+      font-size: 20px;
+    }
+    .nav-links-cart {
+      text-decoration: none;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+     color: #242222;
+      font-size: 19px;
+      padding: 20px;
+    }
+    .nav-links-cart:hover  {
+      text-decoration: none;
+      border-bottom: 2px solid black;
+    
+    }
+    .nav-links:hover  {
+      border-bottom: 2px solid black;
+     
+      text-decoration: none;
+    }
+    
+    .fa-bars {
+      color: black;
+    }
+    
+    .nav-links-mobile {
+      display: none;
+    }
+    
+    .menu-icon {
+      display: none;
+    }
+    
+    @media screen and (max-width: 960px) {
+     
+      .navbar-logo  {
+        text-decoration: none;
+        font-size: 30px;
+        }
+    
+      .nav-menu {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        position: absolute;
+        top: 80px;
+        left: -100%;
+        opacity: 1;
+        transition: all 0.5s ease;
+      }
+    
+      .nav-menu.active {
+        background: white;
+        left:  0;
+        opacity: 1;
+        transition: all 0.5s ease-in-out;
+        z-index: 10;
+      }
+    
+      .nav-links {
+        display: block;
+        text-align: center;
+        margin: 1rem auto;
+        border-radius: 4px;
+        width: 100%;
+        text-decoration: none;
+        font-size: 1.5rem;
+        background-color: transparent;
+        color: #242222;
+        padding: 14px 20px;
+       
+        transition: all 0.5s ease-out;
+      }
+    
+    
+    
+    
+    
+      .menu-icon {
+        display: block;
+        position: absolute;
+        top: 0;
+        right: 0;
+        transform: translate(-100%, 60%);
+        font-size: 1.8rem;
+        cursor: pointer;
+      }
+    
+      .fa-times {
+        color: black;
+        font-size: 2rem;
+      }
+    
+      .nav-links-cart {
+        display: block;
+        text-align: center;
+        margin: 1rem auto;
+        border-radius: 4px;
+        width: 100%;
+        text-decoration: none;
+        font-size: 1.5rem;
+        background-color: transparent;
+        color: #242222;
+        padding: 14px 20px;
+        transition: all 0.3s ease-out;
+      }
+    }

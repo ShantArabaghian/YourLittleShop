@@ -1,0 +1,50 @@
+.Wrapper{
+    width: 25%;
+  padding: 20px;
+  background-color: transparent;
+  
+}
+.Container{
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(
+      rgba(255, 255, 255, 0.5),
+      rgba(255, 255, 255, 0.5)
+    ),
+    url("https://www.teahub.io/photos/full/15-150673_lonely-fashion-model-on-the-street-hd-wallpaper.jpg")
+      center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+.SLink{
+    margin: 5px 0px;
+    font-size: 13px;
+    text-decoration: none;
+    color: red;
+}
+
+@media screen and (max-width: 820px) {
+.Wrapper{
+        width: 80%;
+        padding: 20px;
+        background-color: transparent;
+}
+.Container{
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(
+      rgba(255, 255, 255, 0.5),
+      rgba(255, 255, 255, 0.5)
+    ),
+    url("https://i.imgur.com/dSwjV8G.jpg")
+      center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+}

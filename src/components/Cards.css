@@ -1,0 +1,74 @@
+.cards {
+  text-align: center;
+  
+  }
+  h1 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+  }
+  
+.shop-btn{
+    position: relative;
+    bottom: 7rem;
+    font-size: 20px;
+    border: 1rem solid #E5E5E5;
+    background: #E5E5E5;
+    text-decoration: none;
+    border-radius: 50px;
+    margin-left: 10px; 
+    color: green;
+}
+.shop-btn:hover{
+  color: red;
+  transition: 0.3s;
+  text-decoration: none;
+}
+  .cards__item {
+    display: flex;
+    flex: 2;
+  
+  }
+  
+  .cards__item__link {
+    display: flex;
+    flex-flow: column;
+    width: 100%;
+  }
+  
+  .cards__item__pic-wrap {
+    position: relative;
+    width: 100%;
+    padding: 50%;
+
+  }
+  .cards__item__img {
+    position: absolute;
+    
+    top: 0;  
+    right: 5cm;
+    height: 100%;
+  }
+
+  
+  @media screen and (max-width: 960px) {
+  
+  
+    .shop-btn{
+      position:relative;
+      font-size: 8px;
+      
+      background: #E5E5E5;
+      text-decoration: none;
+      border-radius: 20px;
+       margin-bottom: 10px;
+      color: green;
+  }
+  .cards__item__img {
+    position: absolute;
+    
+    top: 0;  
+    right: 1cm;
+    height: 100%;
+  }
+  }
+  
+  

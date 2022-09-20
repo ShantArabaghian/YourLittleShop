@@ -1,0 +1,17 @@
+.d-block{
+    background-color:transparent;
+    height: 80vh;
+    padding: 15px;
+    width: 100%;    
+}
+
+@media screen and (max-width: 960px){
+
+    .d-block{
+        background-color: transparent;
+        height:  30vh;
+        
+        padding: 25px;
+    }
+
+}
